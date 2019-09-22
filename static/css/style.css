@@ -10,6 +10,14 @@ html{
     font-size: 62.5%;
 }
 
+@media only screen and (max-width:  56.25em){
+    html{
+        font-size: 50%;  
+    }  
+
+}
+
+
 body{
 box-sizing: border-box;
 }
@@ -22,7 +30,6 @@ box-sizing: border-box;
 
 .para{
     font-size: 2.4rem;
-    line-height: 1.6rem;
     font-weight: 100;
     margin: 2rem 0;
 }
@@ -45,14 +52,14 @@ box-sizing: border-box;
 .Apphero{
     width: 80%;
     padding: 2rem 1.5rem;
-    margin: auto;
+    margin: auto 0;
+    font-family: 'Nunito Sans', sans-serif;
 }
 
 .form{
     width: 100%;
     max-height: 100%;
     margin: auto;
-
     box-sizing: border-box;
 }
 
@@ -60,13 +67,21 @@ box-sizing: border-box;
     width: 80%;
     max-height: 100px;
     display: block;
-    background: green;
+    background: linear-gradient(90deg, rgba(255,0,82,0.7512138644520308) 1%, rgba(241,41,1,0.8520542005864846) 100%);
     color: antiquewhite;
     box-sizing: border-box;
     font-size: 2rem;
     padding: 2rem 1.5rem;
     margin: 2rem 0;
     border-radius: 1.6rem;
+    font-family: 'Nunito Sans', sans-serif;
+
+}
+.form-row input[type='file']{
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    padding: 1rem;
+    color: aliceblue;
+    font-size: 2rem;
 
 }
 
@@ -75,15 +90,16 @@ box-sizing: border-box;
     max-height: 100%;
     padding: 10px 5px;
     font-size: 20px;
-    background: green;
+    background: linear-gradient(90deg, rgba(3,145,43,0.9472922958245799) 1%, rgba(38,179,6,0.9444911753764006) 100%);
     color: antiquewhite;
     border-radius: 100px;
+    font-family: 'Nunito Sans', sans-serif;
 }
 
 .imgContainer{
-    width:60%;
+    width:50%;
     margin: 2rem 0;
-    max-height: 400px;
+    height: 200px;
     background: transparent;
 }
 
