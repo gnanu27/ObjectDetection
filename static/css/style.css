@@ -82,6 +82,7 @@ box-sizing: border-box;
     padding: 1rem;
     color: aliceblue;
     font-size: 2rem;
+    cursor: pointer;
 
 }
 
@@ -94,13 +95,16 @@ box-sizing: border-box;
     color: antiquewhite;
     border-radius: 100px;
     font-family: 'Nunito Sans', sans-serif;
+    cursor: pointer;
 }
 
 .imgContainer{
     width:50%;
     margin: 2rem 0;
-    height: 200px;
+    max-height: 200px;
     background: transparent;
+    border: none;
+    /* border: 1px solid transparent; */
 }
 
 .img{
